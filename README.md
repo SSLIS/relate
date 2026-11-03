@@ -4,7 +4,7 @@
 
 These training materials were developed by Wout Dillen as part of the Controlled Vocabularies course (Kontrollerade vokabulärer) taught at the [University of Borås](www.hb.se), Sweden. They are designed to give students a better understanding of the concept of Linked Open Data through a hands-on exercise where they express relations between objects and entities in `.rdf`, and visualise the result. 
 
-In the workshop re:late was designed for, students are split into groups, where each group is given a physical music record to describe in RFD tuples. At the end of the workshop, students upload their descriptions, which are then merged to visualise the links between the records with [RDF Grapher](). The workshop instructions and the python code to merge the files and visualise them are made available through a Jupyter Book hosted on GitHub.
+In the workshop re:late was designed for, students are split into groups, where each group is given a physical music record to describe in RDF tuples. At the end of the workshop, students upload their descriptions, which are then merged to visualise the links between the records with [RDF Grapher](). The workshop instructions and the python code to merge the files and visualise them are made available through a Jupyter Book hosted on GitHub.
 
 ## Website Link
 
