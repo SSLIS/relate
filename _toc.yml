@@ -2,4 +2,7 @@ format: jb-book
 root: README
 
 chapters:
-  - file: notebooks/visualize
+  - file: docs/workshop
+    sections:
+      - file: docs/instructions
+      - file: notebooks/visualize
