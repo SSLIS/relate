@@ -51,6 +51,11 @@ jobs:
         run: |
           jb build .
 
+      - name: Copy assets
+        run: |
+          mkdir -p _build/html/assets
+          cp -r assets/img _build/html/assets/
+
       - name: Verify build output
         run: |
           find _build/html -name index.html
