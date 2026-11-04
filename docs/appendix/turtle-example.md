@@ -1,0 +1,50 @@
+# Turtle Example
+
+An example RDF description of Pink Floyd's *Dark Side of the Moon* (1973), with comments. 
+
+```
+# First we declare the prefixes:
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> . 
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+# Then we can start describing the album:
+wiki:Q150901 a mo:Record .
+wiki:Q150901 dcterms:title "The Dark Side of the Moon" .
+wiki:Q150901 foaf:maker wiki:Q2306.
+wiki:Q150901 mo:Label wiki:Q1324712 .
+
+# And we can describe the band who recorded the album:
+wiki:Q2306 a mo:MusicGroup .
+wiki:Q2306 foaf:name "Pink Floyd" .
+wiki:Q2306 foaf:member wiki:Q173061 .
+wiki:Q2306 foaf:member wiki:Q192936 .
+wiki:Q2306 foaf:member wiki:Q180861 .
+wiki:Q2306 foaf:member wiki:Q190251 .
+
+# We can also list all the tracks on the album:
+wiki:Q150901 mo:Track wiki:Q840710 .
+wiki:Q150901 mo:Track wiki:Q526812 .
+wiki:Q150901 mo:Track wiki:Q930240 .
+wiki:Q150901 mo:Track wiki:Q641913 .
+wiki:Q150901 mo:Track wiki:Q957629 .
+wiki:Q150901 mo:Track wiki:Q838973 .
+wiki:Q150901 mo:Track wiki:Q660443 .
+wiki:Q150901 mo:Track wiki:Q2468030 .
+wiki:Q150901 mo:Track wiki:Q897406 .
+wiki:Q150901 mo:Track wiki:Q2320733 .
+
+# We could even provide more information for each track, such as:
+wiki:Q840710 a mo:Track .
+wiki:Q840710 mo:track_number "1" .
+wiki:Q840710 dcterms:title "Speak to Me" .
+
+# And we could provide more information for each artist as well, such as:
+wiki:Q180861 a foaf:Person .
+wiki:Q180861 foaf:name "Roger Waters" .
+wiki:Q180861 mo:instrument "vocals" .
+wiki:Q180861 mo:instrument "bass guitar" .
+
+# PRO TIP: For covers, check out mo:tribute_to
+```
