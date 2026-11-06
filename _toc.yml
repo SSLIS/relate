@@ -6,10 +6,11 @@ chapters:
     sections:
       - file: docs/workshop/setup
       - file: docs/workshop/instructions
-      - file: notebooks/workshop/visualize
+      - file: notebooks/visualize
 
   - file: docs/appendix/toc
     sections:
       - file: docs/appendix/turtle-example
       - file: docs/appendix/for-teachers
+
       
