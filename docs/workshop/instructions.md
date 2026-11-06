@@ -67,24 +67,26 @@ Have a good look at your visualization.
 Did it visualize your data in a way you expected?
 If you notice anything off, have another look at your data, and see if you need to fix any mistakes.
 
-# Step 3. Merge the RDF statements of all the institutions
+# Step 3. Upload your work to GitHub
 
 Now that we all have working, well-formed RDF statements, it's time to join them together!
-To do so, follow these steps:
+To do so, one of your team mates needs to follow these steps:
 
 1. Visit [this workshop's github repository](https://github.com/SSLIS/relate).
-2. Navigate down to [the `data` folder inside the repository](https://github.com/SSLIS/relate/tree/main/data).
-3. Near the top-right of the page, you will find an `Add files` button. Click on it, and choose the `Upload files` option.
-4. Find your `.ttl` file, and opload it, following the instructions on the screen.
-
-Your tutor will then review and accept your upload.
+2. Log in to GitHub if you you aren't yet.
+3. Find the `Issues` tab, and click on the `Request Access` issue.
+4. Follow the issue's instructions, and leave a comment.
+5. Visit your GitHub inbox, and wait for an invitation from your tutor. You can find the inbox right next to your profile picture at the top right corner of GitHub's website. Grab your tutor's attention IRL if necessary.
+6. Open the invitation in your inbox, and follow the instructions to accept.
+7. Navigate down to [the `data` folder inside the repository](https://github.com/SSLIS/relate/tree/main/data).
+8. Near the top-right of the page, you will find an `Add files` button. Click on it, and choose the `Upload files` option.
+9. Find your `.ttl` file, and opload it, following the instructions on the screen.
 
 **Note** that Step 4 will only work if Step 2 is completed correctly, so make sure to test your `.ttl` file before uploading!
 
-
 # Step 4. Visualize the relations between documents (and institutions) as a graph
 
-Once everyone has uploaded their materials, and they have been accepted by the tutor, they will be used to automatically generate a composite graph with RDF-Grapher. 
+Once you uploaded your work, it will be used to automatically generate a composite graph with RDF-Grapher. 
 Follow along as your tutor shows you this (and troubleshoots any rising issues).
 
 Done!
