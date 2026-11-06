@@ -7,10 +7,8 @@ chapters:
       - file: docs/workshop/setup
       - file: docs/workshop/instructions
       - file: notebooks/visualize
+      - file: docs/workshop/turtle-example
 
-  - file: docs/appendix/toc
-    sections:
-      - file: docs/appendix/turtle-example
-      - file: docs/appendix/for-teachers
+  - file: docs/for-teachers
 
       

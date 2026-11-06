@@ -5,14 +5,13 @@
 Have a look at the vinyl record your institution is asked to describe, and try to decide which aspects might be of interest to your visitors.
 Once you have a better idea of what you are dealing with, you can start describing the document in RDF.
 Open your preferred text editor (see []'Before we start'](https://www.ldf.fi/service/rdf-grapher)), and start writing relevant RDF statements.
-You can find an example of how to describe an album and its artists [in the Appendix](appendix/turtle-example.md).
+You can find an example of how to describe an album and its artists [here](turtle-example.md).
 
 Start by describing the most obvious relations, such as: Which album is it?
 Who is it by?
 Who are the band members?
 Which tracks are on there?
 Which record label produced it?
-These are also the relations you will find an example for in the Appendix.
 
 Specifically, we ask you to pay special attention whether the following identifiers are relevant to your record:
 
