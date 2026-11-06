@@ -21,5 +21,7 @@ Towards the end of the workshop, you will be uploading your work into an existin
 
 ### More information about Linked Open Data
 
-Students in the Kontrollerade Vokabularer course will already had a first introduction to Linked Open Data. Still, it can be useful to refresh your memory by watching this one-hour video lecture on [Linked (Open) Data for Libraries](https://hb.instructure.com/courses/12647/pages/linked-data-workshop) before the start of the workshop.
+Students in the Kontrollerade Vokabularer course will already had a first introduction to Linked Open Data. Still, it can be useful to refresh your memory by watching this one-hour video lecture on [Linked (Open) Data for Libraries](https://play.hb.se/media/0_ol5tnwn3) before the start of the workshop: 
+
+<iframe id="kaltura_player" src='https://api.kaltura.nordu.net/p/330/embedPlaykitJs/uiconf_id/23454528?iframeembed=true&amp;entry_id=0_ol5tnwn3&amp;config%5Bprovider%5D=%7B%22widgetId%22%3A%220_1f777ebo%22%7D&amp;config%5Bplayback%5D=%7B%22startTime%22%3A0%7D'  style="width: 720px;height: 405px;border: 0;" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" title="Linked (Open) Data for Digital Libraries"></iframe>
 
