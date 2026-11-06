@@ -27,7 +27,7 @@ If they are, you **must** describe them.
 This will become important at a later stage in this workshop.
 So start with these.
 
-We suggest you use [WikiData Links](https://www.wikidata.org/)to reference known entities (albums, record labels, artists), and the following ontologies to describe the relations between those entities:
+We suggest you use [WikiData Links](https://www.wikidata.org/) to reference known entities (albums, record labels, artists), and the following ontologies to describe the relations between those entities:
 
 * [MO](http://musicontology.com/specification/) (Music Ontology) to describe relations specific to music production
 * [FOAF](http://xmlns.com/foaf/0.1/) (Friend of a Friend) to describe personal relations
@@ -43,7 +43,7 @@ Maybe you can find the lyrics or a video of one or more of the tracks on the alb
 # Step 2. Visualize your relations as graph (and troubleshoot)
 
 When everyone is done with Step 1, we'll try to visualize our RDF statements as a graph.
-To make this visualization, we will be using [RDF Grapher](https://www.ldf.fi/service/rdf-grapher), a web service for parsing RDF data and visualizing it as a graph, developed by the [Linked Data Finland](https://www.ldf.fi/index.html)project.
+To make this visualization, we will be using [RDF Grapher](https://www.ldf.fi/service/rdf-grapher), a web service for parsing RDF data and visualizing it as a graph, developed by the [Linked Data Finland](https://www.ldf.fi/index.html) project.
 
 Visualizing your RDF is a great way to troubleshoot your code.
 Firstly, because parsers such as RDF Graphers require your RDF statements to be well-formed.
