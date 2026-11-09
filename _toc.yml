@@ -2,13 +2,18 @@ format: jb-book
 root: README
 
 chapters:
-  - file: docs/workshop/about
+  - file: docs/workshop/index
     sections:
+      - file: docs/workshop/about
       - file: docs/workshop/setup
       - file: docs/workshop/instructions
       - file: notebooks/visualize
       - file: docs/workshop/turtle-example
 
-  - file: docs/for-teachers
+  - file: docs/for-teachers/index
+    sections:
+      - file: docs/for-teachers/about
+      - file: docs/for-teachers/setup
+      - file: docs/for-teachers/customize
 
       

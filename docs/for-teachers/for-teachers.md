@@ -17,7 +17,6 @@ In our case, some records share band members, others share song titles, etc.
 Take note of these connections, and try to find good identitfyers for them (e.g., on [WikiData](https://www.wikidata.org)).
 You will need to use these identifiers to replace ours when you are editing 'Step 1.' in the instructions (see also below). 
 
-
 ## Fork and clone the repository
 
 ## Prepare the repository for local development
@@ -32,4 +31,14 @@ You will need to use these identifiers to replace ours when you are editing 'Ste
 
 ### Update the instructions
 
+### Create the 'Request Access' issue
+
 ### Clean up the `data` directory if necessary
+
+## Teaching the Workshop
+
+### Guiding the students
+
+### Allow students to upload their work to the repository
+
+### Troubleshooting
