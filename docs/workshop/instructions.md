@@ -70,7 +70,7 @@ If you notice anything off, have another look at your data, and see if you need 
 # Step 3. Upload your work to GitHub
 
 Now that we all have working, well-formed RDF statements, it's time to join them together!
-To do so, one of your team mates needs to follow these steps:
+To do so, one of your teammates needs to follow these steps:
 
 1. Visit [this workshop's github repository](https://github.com/SSLIS/relate).
 2. Log in to GitHub if you you aren't yet.
@@ -80,7 +80,7 @@ To do so, one of your team mates needs to follow these steps:
 6. Open the invitation in your inbox, and follow the instructions to accept.
 7. Navigate down to [the `data` folder inside the repository](https://github.com/SSLIS/relate/tree/main/data).
 8. Near the top-right of the page, you will find an `Add files` button. Click on it, and choose the `Upload files` option.
-9. Find your `.ttl` file, and opload it, following the instructions on the screen.
+9. Find your `.ttl` file, and upload it, following the instructions on the screen.
 
 **Note** that Step 4 will only work if Step 2 is completed correctly, so make sure to test your `.ttl` file before uploading!
 
