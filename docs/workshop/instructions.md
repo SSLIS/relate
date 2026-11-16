@@ -33,6 +33,8 @@ We suggest you use [WikiData Links](https://www.wikidata.org/) to reference know
 * [FOAF](http://xmlns.com/foaf/0.1/) (Friend of a Friend) to describe personal relations
 * [DCMI](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/) (Dublin Core Metadata Initiative) to describe digital collections
 
+**When the known entities you are trying to describe are not featured in WikiData, try to find an alternative you can link to, like https://www.discogs.com.**
+
 We would also ask you to make your RDF statements as readable as possible, by using a @prefix to shorten your URIs into CURIEs (Compact URIs), as explained in the video lecture.
 If you need to refresh your memory, [this link will take you to the exact spot in the lecture that talks about using @prefix in Turtle](https://play.hb.se/media/Linked+%28Open%29+Data+for+Digital+Libraries/0_ol5tnwn3?st=2960).
 
