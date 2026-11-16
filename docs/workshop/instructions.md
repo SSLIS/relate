@@ -29,7 +29,7 @@ So start with these.
 
 We suggest you use [WikiData Links](https://www.wikidata.org/) to reference known entities (albums, record labels, artists), and the following ontologies to describe the relations between those entities:
 
-* [MO](http://musicontology.com/specification/) (Music Ontology) to describe relations specific to music production
+* [MO](https://web.archive.org/web/20251108224343/http://musicontology.com/specification/) (Music Ontology) to describe relations specific to music production **Internet Archive Link because the service is currently down!**
 * [FOAF](http://xmlns.com/foaf/0.1/) (Friend of a Friend) to describe personal relations
 * [DCMI](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/) (Dublin Core Metadata Initiative) to describe digital collections
 
