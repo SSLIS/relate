@@ -1,0 +1,32 @@
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> . 
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix smdb: <https://smdb.kb.se/catalog/id/> .
+
+smdb:001889272 a mo:Vinyl .
+smdb:001889272 dcterms:title "A Sense of Belonging" .
+smdb:001889272 dcterms:date "1983" .
+smdb:001889272 foaf:maker wiki:Q10505546 .
+smdb:001889272 mo:Label wiki:Q4574886 .
+
+wiki:Q10505546 a mo:MusicGroup .
+wiki:Q10505546 foaf:name "Global Infantilists" .
+wiki:Q10505546 foaf:member wiki:Q6096644 .
+wiki:Q10505546 foaf:member wiki:Q3743817 .
+smdb:001889272 dcterms:contributor "Håkan Lindell" .
+smdb:001889272 dcterms:contributor "Ermalms egenart" , wiki:Q10505546 .
+
+wiki:Q3743817  a foaf:Person .
+wiki:Q3743817  foaf:name "Mare Kandre" .
+wiki:Q10505546 mo:lyrics wiki:Q3743817 .
+wiki:Q6096644  a foaf:Person .
+wiki:Q6096644 foaf:name "Olle Schedin" .
+
+
+
+
+
+smdb:001889272 mo:Track smdb:001889272_1 , smdb:001889272_2 , smdb:001889272_3 , smdb:001889272_4 , smdb:001889272_5 , smdb:001889272_6 , smdb:001889272_7 , smdb:001889272_8 , smdb:001889272_9, smdb:001889272_10 .
+
+
