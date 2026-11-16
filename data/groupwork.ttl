@@ -1,0 +1,45 @@
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> . 
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix discogs: <https://www.discogs.com/release/> .
+
+discogs:1667330 a mo:Record .
+discogs:1667330 dcterms:title "The Global Infantilists" .
+discogs:1667330 foaf:maker wiki:Q10505546 .
+discogs:1667330 mo:Label wiki:Q4574886 .
+discogs:1667330 mo:Genre <https://www.discogs.com/music/genre/electronic> .
+discogs:1667330 mo:Genre <https://www.discogs.com/music/genre/rock> .
+discogs:1667330 mo:Genre <https://www.discogs.com/music/genre/pop> .
+
+wiki:Q10505546 a mo:MusicGroup .
+wiki:Q10505546 foaf:name "Global Infantilitists" .
+wiki:Q10505546 foaf:member wiki:Q6240768 .
+wiki:Q10505546 foaf:member <https://www.discogs.com/artist/1377926-Sven-Ohlman> .
+wiki:Q10505546 foaf:member wiki:Q3743817 .
+wiki:Q10505546 foaf:member wiki:Q6096644 .
+
+wiki:Q6240768 a foaf:person .
+wiki:Q6240768 foaf:name "Mats Wigerdal" .
+wiki:Q6240768 mo:instrument "Drums" .
+
+<https://www.discogs.com/artist/1377926-Sven-Ohlman> a foaf:person .
+<https://www.discogs.com/artist/1377926-Sven-Ohlman> foaf:name "Sven Ohlman" .
+<https://www.discogs.com/artist/1377926-Sven-Ohlman> mo:instrument "Bass" .
+
+wiki:Q3743817 a foaf:person .
+wiki:Q3743817 foaf:name "Mare Kandre" .
+wiki:Q3743817 mo:instrument "vocals" .
+wiki:Q3743817 mo:instrument "piano" .
+
+wiki:Q6096644 a foaf:person .
+wiki:Q6096644 foaf:name "Olle Schedin" .
+wiki:Q6096644 mo:instrument "Piano" .
+wiki:Q6096644 mo:instrument "Synth" .
+
+discogs:1667330 mo:Track "This Music" .
+discogs:1667330 mo:Track "Passing" .
+discogs:1667330 mo:Track "Leaving" .
+discogs:1667330 mo:Track "Crystal Ship" .
+discogs:1667330 mo:Track "An Inch of Nothing" .
+discogs:1667330 mo:Track "The Flight" .
