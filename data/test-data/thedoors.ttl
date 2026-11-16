@@ -1,0 +1,29 @@
+#First we declare the prefixes
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> . 
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+#The album
+wiki:Q201949 a mo:Record .
+wiki:Q201949 dcterms:creator wiki:Q45354 ;
+dcterms:created "1967" .
+wiki:Q201949 mo:Label wiki:Q726251 .
+wiki:Q726251 foaf:name "Elektra" .
+
+#The band members
+wiki:Q45354 foaf:member wiki:Q44301 , wiki:Q311900 , wiki:Q108912 , wiki:Q310113 .
+wiki:Q44301 foaf:name "Jim Morrison" .
+wiki:Q311900 foaf:name "Robby Krieger" .
+wiki:Q108912 foaf:name "Ray Manzarek" .
+wiki:Q310113 foaf:name "John Densmore" .
+
+#The tracks
+wiki:Q201949 mo:Track wiki:Q903649 , wiki:Q7564250 , wiki:Q1931442 , wiki:Q7857704 , 
+wiki:Q5662029 , wiki:Q66619426 , wiki:Q6039287 , "Back Door Man" , "I Looked at You" , wiki:Q3514255 , wiki:Q154187 .
+
+#The band member roles
+wiki:Q44301 mo:instrument wiki:Q17172850 .
+wiki:Q311900 mo:instrument wiki:Q6607 .
+wiki:Q108912 mo:instrument wiki:Q1444 , wiki:Q5994 , wiki:Q46185 .
+wiki:Q310113 mo:instrument wiki:Q11404 .
